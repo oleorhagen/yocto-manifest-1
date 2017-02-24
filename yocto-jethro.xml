@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="git://github.com/" name="github" />
+
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="jethro" remote="yocto" />
+  <project name="meta-amd.git" path="meta-amd" revision="jethro" remote="yocto" />
+  <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="jethro" remote="github" />
+  <project name="poky.git" path="poky" revision="jethro" remote="yocto" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" revision="51b4620392aa9041d8512549bfa554bea368c5ea" upstream="jethro" remote="github" />
+</manifest>

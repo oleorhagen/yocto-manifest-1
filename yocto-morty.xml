@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="https://github.com/agherzan" name="andrei"/>
+
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="morty" remote="yocto" />
+  <project name="meta-amd.git" path="meta-amd" revision="morty" remote="yocto" />
+  <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
+  <project name="poky.git" path="poky" revision="morty" remote="yocto" />
+  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="master" remote="yocto" />
+  <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
+  <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" revision="morty" remote="github" />
+  <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
+</manifest>
