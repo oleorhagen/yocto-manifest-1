@@ -5,6 +5,7 @@
   <remote fetch="https://github.com/agherzan" name="andrei"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
+  <remote fetch="git://github.com/mem" name="mem"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
   <project name="poky.git" path="poky" revision="morty" remote="mender" />
@@ -16,4 +17,5 @@
   <project name="mender.git" path="mender" revision="master" remote="mender" />
   <project name="mender-artifact.git" path="mender-artifact" revision="master" remote="mender" />
   <project name="integration.git" path="integration" revision="master" remote="mender" />
+  <project name="oe-meta-go.git" path="oe-meta-go" revision="master" remote="mem" />
 </manifest>
