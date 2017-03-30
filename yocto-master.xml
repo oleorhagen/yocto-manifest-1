@@ -4,14 +4,11 @@
   <remote fetch="git://github.com/" name="github" />
   <remote fetch="https://github.com/agherzan" name="andrei"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
-  <remote fetch="git://github.com/beagleboard" name="beagleboard"/>
 
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="master" remote="github" />
   <project name="poky.git" path="poky" revision="master" remote="yocto" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="master" remote="yocto" />
-  <project name="meta-beagleboard.git" path="meta-beagleboard" revision="master" remote="beagleboard" />
-  <project name="meta-beagleboard-extras.git" path="meta-beagleboard-extras" revision="master" remote="beagleboard" />
   <project name="meta-chip.git" path="meta-chip" revision="wip" remote="drewmoseley" />
   <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" revision="master" remote="github" />
