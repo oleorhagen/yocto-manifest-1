@@ -13,7 +13,7 @@
 
   <project name="mender-qa.git" path="mender-qa" revision="master" remote="mender" />
   <project name="meta-mender.git" path="meta-mender" revision="morty" remote="mender" />
-  <project name="mender.git" path="mender" revision="morty" remote="mender" />
+  <project name="mender.git" path="mender" revision="master" remote="mender" />
   <project name="mender-artifact.git" path="mender-artifact" revision="master" remote="mender" />
   <project name="integration.git" path="integration" revision="master" remote="mender" />
 </manifest>
