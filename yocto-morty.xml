@@ -8,7 +8,7 @@
   <project name="meta-amd.git" path="meta-amd" revision="morty" remote="yocto" />
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
   <project name="poky.git" path="poky" revision="morty" remote="yocto" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="morty" remote="yocto" />
+  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="wip-morty" remote="drewmoseley" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-morty" remote="drewmoseley" />
   <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" revision="morty" remote="github" />
