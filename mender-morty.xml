@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
-  <remote fetch="git://github.com/" name="github" />
-  <remote fetch="https://github.com/agherzan" name="andrei"/>
-  <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
+  <include "base-morty.xml" />
+
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/mem" name="mem"/>
-
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
-  <project name="poky.git" path="poky" revision="wip-morty" remote="drewmoseley" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="wip-morty" remote="drewmoseley" />
-  <project name="meta-chip.git" path="meta-chip" revision="wip-morty" remote="drewmoseley" />
 
   <project name="mender-qa.git" path="mender-qa" revision="master" remote="mender" />
   <project name="meta-mender.git" path="meta-mender" revision="morty" remote="mender" />
