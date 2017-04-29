@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include "base-morty.xml" />
+  <include name="base-morty.xml" />
 
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
   <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
