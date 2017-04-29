@@ -8,7 +8,7 @@
   <remote fetch="git://github.com/mem" name="mem"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
-  <project name="poky.git" path="poky" revision="morty" remote="mender" />
+  <project name="poky.git" path="poky" revision="wip-morty" remote="drewmoseley" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="wip-morty" remote="drewmoseley" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-morty" remote="drewmoseley" />
 
