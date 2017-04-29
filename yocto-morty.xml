@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<include "base-morty.xml" />
 <manifest>
-  <include "base-morty.xml" />
-
   <project name="meta-amd.git" path="meta-amd" revision="morty" remote="yocto" />
   <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" revision="morty" remote="github" />
