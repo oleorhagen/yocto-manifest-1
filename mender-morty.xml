@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include "base-morty.xml" />
+  <include name="base-morty.xml" />
   
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/mem" name="mem"/>
