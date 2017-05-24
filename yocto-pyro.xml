@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base-pyro.xml" />
+
+  <project name="meta-amd.git" path="meta-amd" revision="pyro" remote="yocto" />
+  <project name="resin-io/meta-resin.git" path="meta-resin" revision="pyro" remote="github" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" revision="pyro" remote="github" />
+  <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="pyro" remote="github" />
+</manifest>
