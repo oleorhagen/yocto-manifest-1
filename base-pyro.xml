@@ -6,7 +6,7 @@
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="pyro" remote="github" />
-  <project name="poky.git" path="poky" revision="wip-pyro" remote="drewmoseley" />
+  <project name="poky.git" path="poky" revision="pyro" remote="yocto" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="pyro" remote="yocto" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-pyro" remote="drewmoseley" />
 </manifest>
