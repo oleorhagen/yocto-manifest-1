@@ -4,5 +4,5 @@
 
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
 
-  <project name="mender-qa.git" path="mender-qa" revision="master" remote="mender" />
+  <project name="mender.git" path="mender" revision="master" remote="mender" />
 </manifest>
