@@ -5,10 +5,6 @@
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/mem" name="mem"/>
 
-  <project name="mender-qa.git" path="mender-qa" revision="master" remote="mender" />
   <project name="meta-mender.git" path="meta-mender" revision="morty" remote="mender" />
-  <project name="mender.git" path="mender" revision="master" remote="mender" />
-  <project name="mender-artifact.git" path="mender-artifact" revision="master" remote="mender" />
-  <project name="integration.git" path="integration" revision="master" remote="mender" />
   <project name="oe-meta-go.git" path="oe-meta-go" revision="master" remote="mem" />
 </manifest>
