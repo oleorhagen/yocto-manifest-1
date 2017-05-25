@@ -4,9 +4,22 @@
   <remote fetch="git://github.com/" name="github" />
   <remote fetch="https://github.com/agherzan" name="andrei"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/graugans" name="graugans"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="master" remote="github" />
   <project name="poky.git" path="poky" revision="master" remote="yocto" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="master" remote="yocto" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-master" remote="drewmoseley" />
+
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" revision="master" remote="yocto"/>
+  <project name="meta-fsl-arm-extra.git" path="meta-fsl-arm-extra" revision="master" remote="freescale" />
+  <project name="meta-fsl-demos.git" path="meta-fsl-demos" revision="master" remote="freescale"/>
+  <project name="Documentation.git" path="meta-fsl-documentation" revision="master" remote="freescale"/>
+  <project name="meta-udoo.git" path="meta-udoo" revision="master" remote="graugans"/>
+
+  <project remote="freescale" revision="master" name="fsl-community-bsp-base" path="sources/base">
+	<copyfile dest="README" src="README"/>
+	<copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
 </manifest>
