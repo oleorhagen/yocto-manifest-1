@@ -14,5 +14,5 @@
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" revision="master" remote="yocto"/>
   <project name="meta-fsl-arm-extra.git" path="meta-fsl-arm-extra" revision="master" remote="freescale" />
-  <project name="meta-udoo.git" path="meta-udoo" revision="master" remote="graugans"/>
+  <project name="meta-udoo.git" path="meta-udoo" revision="morty" remote="graugans"/>
 </manifest>
