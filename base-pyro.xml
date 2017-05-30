@@ -4,9 +4,14 @@
   <remote fetch="git://github.com/" name="github" />
   <remote fetch="https://github.com/agherzan" name="andrei"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/graugans" name="graugans"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="pyro" remote="github" />
   <project name="poky.git" path="poky" revision="wip-pyro" remote="drewmoseley" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="pyro" remote="yocto" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-pyro" remote="drewmoseley" />
+
+  <project name="meta-freescale.git" path="meta-freescale" revision="pyro" remote="yocto"/>
+  <project name="meta-udoo.git" path="meta-udoo" revision="morty" remote="graugans"/>
 </manifest>
