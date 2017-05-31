@@ -13,6 +13,6 @@
   <project name="meta-chip.git" path="meta-chip" revision="wip-master" remote="drewmoseley" />
 
   <project name="meta-freescale.git" path="meta-freescale" revision="master" remote="yocto"/>
-  <project name="meta-udoo.git" path="meta-udoo" revision="morty" remote="graugans"/>
+  <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="master" remote="freescale"/>
 </manifest>
