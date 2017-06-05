@@ -6,11 +6,13 @@
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/graugans" name="graugans"/>
+  <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
   <project name="poky.git" path="poky" revision="wip-morty" remote="drewmoseley" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="wip-morty" remote="drewmoseley" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-morty" remote="drewmoseley" />
+  <project name="meta-sunxi.git" path="meta-sunzi" revision="morty" remote="linux-sunxi" />
 
   <project name="meta-freescale.git" path="meta-freescale" revision="morty" remote="yocto"/>
   <project name="meta-udoo.git" path="meta-udoo" revision="wip-morty" remote="drewmoseley"/>
