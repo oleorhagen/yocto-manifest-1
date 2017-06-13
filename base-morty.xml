@@ -10,7 +10,7 @@
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
   <project name="poky.git" path="poky" revision="morty" remote="yocto" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="wip-morty" remote="drewmoseley" />
+  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="morty" remote="yocto" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-morty" remote="drewmoseley" />
   <project name="meta-sunxi.git" path="meta-sunxi" revision="morty" remote="linux-sunxi" />
 
