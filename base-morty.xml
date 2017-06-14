@@ -18,5 +18,5 @@
   <project name="meta-udoo.git" path="meta-udoo" revision="wip-morty" remote="drewmoseley"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="morty" remote="freescale"/>
 
-  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" revision="master" remote="drewmoseley"/>
+  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" revision="morty" remote="drewmoseley"/>
 </manifest>
