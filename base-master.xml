@@ -11,7 +11,7 @@
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="master" remote="github" />
   <project name="poky.git" path="poky" revision="master" remote="yocto" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="master" remote="yocto" />
-  <project name="meta-chip.git" path="meta-chip" revision="wip-master" remote="drewmoseley" />
+  <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
   <project name="meta-sunxi.git" path="meta-sunxi" revision="master" remote="linux-sunxi" />
 
   <project name="meta-freescale.git" path="meta-freescale" revision="master" remote="yocto"/>
