@@ -17,6 +17,7 @@
   <project name="meta-freescale.git" path="meta-freescale" revision="morty" remote="yocto"/>
   <project name="meta-udoo.git" path="meta-udoo" revision="morty" remote="graugans"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="morty" remote="freescale"/>
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" revision="morty" remote="freescale"/>
 
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" revision="morty" remote="drewmoseley"/>
 </manifest>
