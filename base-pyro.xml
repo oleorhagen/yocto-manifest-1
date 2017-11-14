@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/graugans" name="graugans"/>
   <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
+  <remote fetch="git://git.toradex.com/" name="toradex"/>
  
   <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="pyro" remote="github" />
   <project name="poky.git" path="poky" revision="pyro" remote="yocto" />
@@ -18,6 +19,8 @@
   <project name="meta-udoo.git" path="meta-udoo" revision="pyro" remote="graugans"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="pyro" remote="freescale"/>
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" revision="pyro" remote="freescale"/>
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="morty" remote="toradex"/>
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="morty" remote="toradex"/>
 
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" revision="pyro" remote="drewmoseley"/>
 </manifest>
