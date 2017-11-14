@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="https://github.com/agherzan" name="andrei"/>
+  <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/graugans" name="graugans"/>
+  <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
+  <remote fetch="git://git.toradex.com/" name="toradex"/>
+</manifest>
