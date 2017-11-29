@@ -12,8 +12,8 @@
   <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="master" remote="freescale"/>
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" revision="master" remote="freescale"/>
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="morty" remote="toradex"/>
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="morty" remote="toradex"/>
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="rocko-next" remote="toradex"/>
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="rocko-next" remote="toradex"/>
 
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" revision="master" remote="drewmoseley"/>
 </manifest>
