@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base.xml" />
+  <default revision="morty" />
 
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="morty" remote="github" />
-  <project name="poky.git" path="poky" revision="morty" remote="yocto" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="morty" remote="yocto" />
+  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
+  <project name="poky.git" path="poky" remote="yocto" />
+  <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />
   <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
-  <project name="meta-sunxi.git" path="meta-sunxi" revision="morty" remote="linux-sunxi" />
+  <project name="meta-sunxi.git" path="meta-sunxi" remote="linux-sunxi" />
 
-  <project name="meta-freescale.git" path="meta-freescale" revision="morty" remote="yocto"/>
-  <project name="meta-udoo.git" path="meta-udoo" revision="morty" remote="graugans"/>
-  <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="morty" remote="freescale"/>
-  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" revision="morty" remote="freescale"/>
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="morty" remote="toradex"/>
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="morty" remote="toradex"/>
+  <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
+  <project name="meta-udoo.git" path="meta-udoo" remote="graugans"/>
+  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
 
-  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" revision="morty" remote="drewmoseley"/>
+  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 </manifest>
