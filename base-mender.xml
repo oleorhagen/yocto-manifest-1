@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/mendersoftware" name="mender"/>
+  <remote fetch="git://github.com/mem" name="mem"/>
+
+  <project name="meta-mender.git" path="meta-mender" remote="mender" />
+</manifest>

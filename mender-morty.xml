@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base-morty.xml" />
-  
-  <remote fetch="git://github.com/mendersoftware" name="mender"/>
-  <remote fetch="git://github.com/mem" name="mem"/>
+  <include name="base-mender.xml" />
 
-  <project name="meta-mender.git" path="meta-mender" revision="morty" remote="mender" />
   <project name="oe-meta-go.git" path="oe-meta-go" revision="master" remote="mem" />
 </manifest>

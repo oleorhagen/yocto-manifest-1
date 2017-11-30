@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base-master.xml" />
-
-  <remote fetch="git://github.com/mendersoftware" name="mender"/>
-
-  <project name="meta-mender.git" path="meta-mender" revision="master" remote="mender" />
+  <include name="base-mender.xml" />
 </manifest>
