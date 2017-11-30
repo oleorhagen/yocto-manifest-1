@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="meta-amd.git" path="meta-amd" remote="yocto" />
+  <project name="resin-io/meta-resin.git" path="meta-resin" remote="github" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
+  <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" />
+</manifest>
