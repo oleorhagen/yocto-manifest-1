@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <include name="base.xml" />
-  <default revision="morty" />
-
-  <remove-project name="meta-chip.git" />
-  <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
-</manifest>
