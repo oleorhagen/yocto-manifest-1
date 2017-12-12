@@ -4,7 +4,7 @@
   <default revision="pyro" />
 
   <remove-project name="meta-chip.git" />
-  <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
+  <project name="meta-chip.git" path="meta-chip" revision="wip-pyro" remote="drewmoseley" />
 
 
   <remove-project name="meta-toradex-bsp-common.git" />
