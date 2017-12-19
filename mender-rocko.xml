@@ -2,7 +2,4 @@
 <manifest>
   <include name="base-rocko.xml" />
   <include name="base-mender.xml" />
-
-  <remove-project name="meta-mender.git" />
-  <project name="meta-mender.git" path="meta-mender" revision="master" remote="mender" />
 </manifest>
