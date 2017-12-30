@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base-master.xml" />
-  <include name="base-mender.xml" />
+  <include name="base.xml" />
 </manifest>

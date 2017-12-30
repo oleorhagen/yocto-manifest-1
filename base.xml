@@ -8,6 +8,7 @@
   <remote fetch="https://github.com/graugans" name="graugans"/>
   <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
   <remote fetch="git://git.toradex.com/" name="toradex"/>
+  <remote fetch="git://github.com/mendersoftware" name="mender"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
   <project name="poky.git" path="poky" remote="yocto" />
@@ -23,6 +24,13 @@
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
+
+  <project name="meta-amd.git" path="meta-amd" remote="yocto" />
+
+  <project name="meta-mender.git" path="meta-mender" remote="mender" />
+  <project name="resin-io/meta-resin.git" path="meta-resin" remote="github" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
+  <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" />
 
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 </manifest>
