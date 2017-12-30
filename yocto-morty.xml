@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base-morty.xml" />
-  <include name="base.xml" />
 
   <remove-project name="resin-io/meta-resin.git" />
   <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
