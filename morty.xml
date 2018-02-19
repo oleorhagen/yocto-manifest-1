@@ -14,7 +14,4 @@
 
   <remove-project name="bmwcarit/meta-ros.git" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
-
-  <remove-project name="meta-mender.git" />
-  <project name="meta-mender.git" path="meta-mender" revision="pyro" remote="mender" />
 </manifest>
