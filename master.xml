@@ -5,10 +5,4 @@
 
   <remove-project name="meta-udoo.git" />
   <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
-
-  <remove-project name="meta-toradex-bsp-common.git" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="rocko-next" remote="toradex"/>
-
-  <remove-project name="meta-toradex-nxp.git" />
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="rocko-next" remote="toradex"/>
 </manifest>
