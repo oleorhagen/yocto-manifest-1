@@ -15,22 +15,7 @@
 
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />
 
-  <project name="meta-chip.git" path="meta-chip" remote="andrei" />
-  <project name="meta-sunxi.git" path="meta-sunxi" remote="linux-sunxi" />
-
-  <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
-  <project name="meta-udoo.git" path="meta-udoo" remote="graugans"/>
-  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
-  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
-
-  <project name="meta-amd.git" path="meta-amd" remote="yocto" />
-
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
-  <project name="resin-io/meta-resin.git" path="meta-resin" remote="github" />
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
-  <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" />
 
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 </manifest>
