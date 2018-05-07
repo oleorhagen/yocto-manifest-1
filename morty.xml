@@ -2,16 +2,4 @@
 <manifest>
   <include name="base.xml" />
   <default revision="morty" />
-
-  <project name="mem/oe-meta-go.git" path="oe-meta-go" revision="master" remote="github" />
-
-  <remove-project name="meta-chip.git" />
-  <project name="meta-chip.git" path="meta-chip" revision="wip-pyro" remote="drewmoseley" />
-
-
-  <remove-project name="resin-io/meta-resin.git" />
-  <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
-
-  <remove-project name="bmwcarit/meta-ros.git" />
-  <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
 </manifest>
