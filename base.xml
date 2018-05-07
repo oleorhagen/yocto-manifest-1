@@ -10,12 +10,21 @@
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
 
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
-  <project name="poky.git" path="poky" remote="yocto" />
 
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />
+  <project name="poky" path="poky" remote="mender" >
+  </project>
 
-  <project name="meta-mender.git" path="meta-mender" remote="mender" />
+  <project name="openembedded/meta-openembedded" path="meta-oe" remote="github" >
+    <linkfile src="meta-oe" dest="poky/meta-oe"/>
+  </project>
 
-  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" >
+    <linkfile src="meta-raspberrypi" dest="poky/meta-raspberrypi-link"/>
+  </project>
+
+  <project name="meta-mender" path="meta-mender" remote="mender" >
+    <linkfile src="meta-mender" dest="poky/meta-mender"/>
+  </project>
+
+  <!-- <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/> -->
 </manifest>
