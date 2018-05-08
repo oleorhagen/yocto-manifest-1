@@ -4,7 +4,7 @@
   <default revision="master" />
 
   <remove-project name="meta-mender" />
-  <project name="meta-mender" path="meta-mender" remote="oleorhagen" />
+  <project name="meta-mender" path="meta-mender" revision="cp1804" remote="oleorhagen" />
   <!-- <remove-project name="meta-udoo.git" /> -->
   <!-- <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/> -->
 </manifest>
