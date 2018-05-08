@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
-  <remote fetch="git://github.com/oleorhagen" name="oleorhagen"/>
+  <remote fetch="https://github.com/oleorhagen" name="oleorhagen"/>
 
 
   <project name="poky" path="poky" remote="mender" >
@@ -20,12 +20,11 @@
   </project>
 
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" >
-    <linkfile src="meta-raspberrypi" dest="poky/meta-raspberrypi-link"/>
+    <linkfile src="meta-raspberrypi" dest="poky/meta-raspberrypi"/>
   </project>
 
   <project name="meta-mender" path="meta-mender" remote="mender" >
     <linkfile src="meta-mender" dest="poky/meta-mender"/>
   </project>
 
-  <!-- <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/> -->
 </manifest>
