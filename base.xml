@@ -6,21 +6,11 @@
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/oleorhagen" name="oleorhagen"/>
 
-
   <project name="poky" path="poky" remote="mender" >
-  </project>
-
-  <project name="meta-openembedded" path="meta-openembedded" remote="oe" >
-    <linkfile src="meta-openembedded" dest="poky/meta-openembedded"/>
-  </project>
-
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" >
-    <linkfile src="meta-raspberrypi" dest="poky/meta-raspberrypi-link"/>
   </project>
 
   <project name="meta-mender" path="meta-mender" remote="mender" >
     <linkfile src="meta-mender" dest="poky/meta-mender"/>
   </project>
 
-  <!-- <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/> -->
 </manifest>
