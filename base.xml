@@ -2,12 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
   <remote fetch="git://github.com/" name="github" />
-  <remote fetch="https://github.com/agherzan" name="andrei"/>
-  <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
-  <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="https://github.com/graugans" name="graugans"/>
-  <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
-  <remote fetch="git://git.toradex.com/" name="toradex"/>
+  <remote fetch="git://git.openembedded.org" name="oe" />
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/oleorhagen" name="oleorhagen"/>
 
@@ -15,8 +10,8 @@
   <project name="poky" path="poky" remote="mender" >
   </project>
 
-  <project name="openembedded/meta-openembedded" path="meta-oe" remote="github" >
-    <linkfile src="meta-oe" dest="poky/meta-oe"/>
+  <project name="meta-openembedded" path="meta-openembedded" remote="oe" >
+    <linkfile src="meta-openembedded" dest="poky/meta-openembedded"/>
   </project>
 
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" >
